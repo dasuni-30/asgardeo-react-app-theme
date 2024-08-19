@@ -1,7 +1,7 @@
 ## 👀 Live Deployment
 
 A live preview of this demo is available at
-1. Vercel: []()
+1. Vercel: [Asgardeo React Application](https://asgardeo-react-app-theme.vercel.app/)
 
 ## Features/ Capabilities
 
