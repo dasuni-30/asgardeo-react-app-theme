@@ -6,10 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import { AuthProvider } from "@asgardeo/auth-react";
 
 const config = {
-  signInRedirectURL: "http://localhost:3000",
-  signOutRedirectURL: "http://localhost:3000",
-  clientID: "fDLlYMi674hxxCwuH0809KstlRsa",
-  baseUrl: "https://api.asgardeo.io/t/dasuorg",
+  signInRedirectURL: `${process.env.REACT_APP_BASE_URL}`,
+  signOutRedirectURL: `${process.env.REACT_APP_BASE_URL}`,
+  clientID: `${process.env.REACT_APP_CLIENT_ID}`,
+  baseUrl: `${process.env.REACT_APP_ASGARDEO_BASE_URL}`,
   scope: [ "openid","profile" ]
 };
 
